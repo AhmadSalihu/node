@@ -1,0 +1,34 @@
+{
+  "name": "devlog",
+  "version": "1.0.0",
+  "description": "Social Network for Developers",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lourdesr/devlog.git"
+  },
+  "author": "Lourdes Roashan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lourdesr/devlog/issues"
+  },
+  "homepage": "https://github.com/lourdesr/devlog#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.0.1",
+    "express": "^4.16.3",
+    "gravatar": "^1.6.0",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.5",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^10.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}

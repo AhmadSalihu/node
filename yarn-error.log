@@ -1,0 +1,59 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js start
+
+PATH: 
+  C:\Python310\Scripts\;C:\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Ahmad Salihu\Desktop\ahmadsalihu;C:\Users\AhmadSalihu\AppData\Roaming\npm;C:\Users\AhmadSalihu\AppData\Local\Yarn\bin;C:\Program Files\heroku\bin;C:\Users\Ahmad Salihu\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  16.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, mkdir 'C:\Users\AhmadSalihu'
+
+npm manifest: 
+  {
+    "name": "devlog",
+    "version": "1.0.0",
+    "description": "Social Network for Developers",
+    "main": "server.js",
+    "scripts": {
+      "start": "nodemon server.js"
+      },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/lourdesr/devlog.git"
+    },
+    "author": "Lourdes Roashan",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/lourdesr/devlog/issues"
+    },
+    "homepage": "https://github.com/lourdesr/devlog#readme",
+    "dependencies": {
+      "bcryptjs": "^2.4.3",
+      "body-parser": "^1.18.3",
+      "concurrently": "^4.0.1",
+      "express": "^4.16.3",
+      "gravatar": "^1.6.0",
+      "jsonwebtoken": "^8.3.0",
+      "mongoose": "^5.2.5",
+      "passport": "^0.4.0",
+      "passport-jwt": "^4.0.0",
+      "validator": "^10.4.0"
+    },
+    "devDependencies": {
+      "nodemon": "^1.18.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
